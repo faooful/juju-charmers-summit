@@ -1,6 +1,17 @@
 .bundle-img {
+  width: 40%;
+  max-width: 570px;
   position: absolute;
   top: -30px;
   right: -20px;
   z-index: 1;
+}
+
+@media only screen and (max-width: 769px) {
+  .bundle-img {
+    width: 100%;
+    max-width: auto;
+    position: static;
+    margin: 40px auto 0 auto !important;
+  }
 }
