@@ -3,6 +3,7 @@
 
 @import "structure";
 @import "images";
+@import "countdown";
 
 .button--primary {
   margin-top: 20px;
@@ -28,6 +29,10 @@
     left: 0;
     z-index: 2;
   }
+}
+
+.opacity {
+  opacity: .6;
 }
 
 .video-container {

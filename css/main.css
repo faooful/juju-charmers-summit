@@ -2538,7 +2538,7 @@ audio:not([controls]) {
 .row-hero {
   height: 700px;
   margin-top: 0;
-  padding: 350px 20px 0 20px;
+  padding: 200px 20px 0 20px;
   color: white;
   background: url(../imgs/header-bg.png); }
 
@@ -2570,6 +2570,26 @@ audio:not([controls]) {
     max-width: auto;
     position: static;
     margin: 40px auto 0 auto !important; } }
+#clockdiv {
+  padding-bottom: 40px; }
+
+.figure-container {
+  padding-right: 10px;
+  display: inline-block;
+  text-align: center; }
+
+.smalltext {
+  padding-bottom: 10px;
+  font-size: 16px;
+  opacity: .6; }
+
+.days, .hours, .minutes, .seconds {
+  font-size: 45px; }
+
+.colon {
+  font-size: 45px;
+  opacity: .6; }
+
 .button--primary {
   margin-top: 20px;
   background: white;
@@ -2588,6 +2608,9 @@ audio:not([controls]) {
     top: 0;
     left: 0;
     z-index: 2; }
+
+.opacity {
+  opacity: .6; }
 
 .video-container {
   z-index: 2; }
