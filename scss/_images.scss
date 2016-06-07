@@ -9,9 +9,10 @@
 
 @media only screen and (max-width: 767px) {
   .bundle-img {
-    width: 100%;
-    max-width: auto;
-    position: static;
-    margin: 40px auto 0 auto !important;
+    // width: 100%;
+    // max-width: auto;
+    // position: static;
+    // margin: 40px auto 0 auto !important;
+    display: none;
   }
 }

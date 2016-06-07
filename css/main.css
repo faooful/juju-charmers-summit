@@ -2566,13 +2566,7 @@ audio:not([controls]) {
 
 @media only screen and (max-width: 767px) {
   .bundle-img {
-    width: 100%;
-    max-width: auto;
-    position: static;
-    margin: 40px auto 0 auto !important; } }
-#clockdiv {
-  padding-bottom: 40px; }
-
+    display: none; } }
 .figure-container {
   padding-right: 10px;
   display: inline-block;
@@ -2589,6 +2583,35 @@ audio:not([controls]) {
 .colon {
   font-size: 45px;
   opacity: .6; }
+
+@media only screen and (max-width: 767px) {
+  .colon {
+    font-size: 25px; }
+
+  .days, .hours, .minutes, .seconds {
+    font-size: 25px; }
+
+  .smalltext {
+    font-size: 13px; } }
+footer {
+  border-top: 1px solid #CDCDCD !important;
+  box-shadow: none !important; }
+
+.less-padding {
+  padding: 40px 20px !important; }
+
+a {
+  text-decoration: underline;
+  color: #333; }
+
+li {
+  display: inline; }
+  li img {
+    height: 30px;
+    width: 30px; }
+
+.row {
+  border-bottom: none; }
 
 .button--primary {
   margin-top: 20px;
@@ -2612,8 +2635,15 @@ audio:not([controls]) {
 .opacity {
   opacity: .6; }
 
+.small-font {
+  font-size: 13px;
+  padding: 0 0 10px 5px !important; }
+
 .video-container {
   z-index: 2; }
+
+.social-list__item {
+  padding-left: 5px; }
 
 @media only screen and (max-width: 767px) {
   iframe {

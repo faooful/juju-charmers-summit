@@ -1,5 +1,5 @@
 #clockdiv {
-  padding-bottom: 40px;
+  // padding-bottom: 40px;
 }
 
 .figure-container {
@@ -21,4 +21,16 @@
 .colon {
   font-size: 45px;
   opacity: .6;
+}
+
+@media only screen and (max-width: 767px) {
+  .colon {
+    font-size: 25px;
+  }
+  .days, .hours, .minutes, .seconds {
+    font-size: 25px;
+  }
+  .smalltext {
+    font-size: 13px;
+  }
 }

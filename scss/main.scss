@@ -4,6 +4,24 @@
 @import "structure";
 @import "images";
 @import "countdown";
+@import "footer";
+
+a {
+  text-decoration: underline;
+  color: #333;
+}
+
+li {
+  display: inline;
+  img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.row {
+  border-bottom: none;
+}
 
 .button--primary {
   margin-top: 20px;
@@ -35,8 +53,17 @@
   opacity: .6;
 }
 
+.small-font {
+  font-size: 13px;
+  padding: 0 0 10px 5px !important;
+}
+
 .video-container {
   z-index: 2;
+}
+
+.social-list__item {
+  padding-left: 5px;
 }
 
 @media only screen and (max-width: 767px) {
